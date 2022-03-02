@@ -20,7 +20,7 @@ body {
 
 .page-description {
   padding-left: 64px;
-  style="color: rgba(255, 255, 255, 0.6)
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .videos {
@@ -30,6 +30,34 @@ body {
   justify-content: center;
   margin: 0 auto;
   gap: 12px;
+}
+
+.img9 {
+  background-image: url(https://picsum.photos/800/500?random=9);
+}
+.img8 {
+  background-image: url(https://picsum.photos/800/500?random=8);
+}
+.img7 {
+  background-image: url(https://picsum.photos/800/500?random=7);
+}
+.img6 {
+  background-image: url(https://picsum.photos/800/500?random=6);
+}
+.img5 {
+  background-image: url(https://picsum.photos/800/500?random=5);
+}
+.img4 {
+  background-image: url(https://picsum.photos/800/500?random=4);
+}
+.img3 {
+  background-image: url(https://picsum.photos/800/500?random=3);
+}
+.img2 {
+  background-image: url(https://picsum.photos/800/500?random=2);
+}
+.img1 {
+  background-image: url(https://picsum.photos/800/500?random=1);
 }
 
 .video {
@@ -48,6 +76,8 @@ body {
 
 .thumbnail {
   width: 100%;
+  padding-top: 62.5%;
+  background-size: contain;
 }
 
 .video-time {
@@ -79,5 +109,6 @@ body {
 .video-date {
   text-align: right;
   display: block;
-  color: rgba(255, 255, 255, 0.4); font-size: 12px;
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 12px;
 }
