@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header .discountbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.discountbar {
+  height: 5vh;
+  width: 100%;
+  background-color: #1cd1b0;
+  padding: 1vh;
+  font-weight: lighter;
+  border-color: white;
+  border-style: solid;
+  border-width: 0.1px 0px 0px 0px;
+}
+
+.hero {
+  font-family: 'Roboto', sans-serif;
+  background-color: #00669f;
+  padding: 2vh;
+  text-align: center;
+  border-style: solid;
+  border-radius: 1px;
+  border-width: 0.25px;
+  position: relative;
+}
+
+main {
+  position: absolute;
+  width: 55vw;
+  height: 65vh;
+  left: 22vw;
+  top: 20vh;
+  background-color: #f2f8f0;
+}
+
+.cardscontent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: black;
+  padding: 1px;
+  background-color: purple;
+  height: 100%;
+}
+
+.batmancard {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 20vw;
+  color: black;
+  height: 100%;
+  border-radius: 2px 0px 0px 0px;
+  background-color: #f3f3f3;
+}
+
+.batmancard .images .background img {
+  position: absolute;
+  height: 35%;
+  width: 100%;
+  border-radius: 16px 16px 0 0;
+}
+
+.batmancard .images .avatar img {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+.arlequinacard {
+  position: relative;
+  height: 100%;
+  background-color: red;
+  width: 20vw;
+}
+
+.batmancard .seemorebtn {
+  text-align: center;
+  align-items: center;
+}
+
+.batmancard .batmantext {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+p .nome {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+}
