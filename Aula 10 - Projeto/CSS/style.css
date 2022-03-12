@@ -34,83 +34,198 @@ header .discountbar {
 }
 
 main {
-  position: absolute;
-  width: 55vw;
-  height: 65vh;
-  left: 22vw;
-  top: 20vh;
   background-color: #f2f8f0;
 }
 
 .cardscontent {
   display: flex;
   justify-content: space-between;
-  color: black;
   padding: 1px;
-  background-color: purple;
-  height: 100%;
+  background-color: white;
+  position: absolute;
+  left: 20vw;
+  top: 20vh;
+  width: 60vw;
+  height: 60vh;
 }
 
 .batmancard {
   display: flex;
   flex-direction: column;
   position: absolute;
-  width: 20vw;
+  width: 33%;
   height: 100%;
-  border-radius: 2px 0px 0px 0px;
   background-color: #f3f3f3;
-  justify-content: space-between;
+  border-radius: 3px;
+}
+
+.harleycard {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 66.9%;
+  width: 33%;
+  height: 100%;
+  border-radius: 3px;
+  background-color: #f3f3f3;
+}
+
+.batmancard .images {
+  width: 100%;
+  height: 33.3%;
+  background-color: white;
+}
+
+.harleycard .images {
+  width: 100%;
+  height: 33.3%;
+  background-color: white;
 }
 
 .batmancard .images .background {
   position: absolute;
-  height: 35%;
+  height: 33.3%;
   width: 100%;
   border-radius: 16px 16px 0 0;
 }
 
-.batmancard .images avatar {
-  width: 100%;
-  height: 100%;
+.harleycard .images .background {
   position: absolute;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  border: 2px solid #fff;
-  left: 33%;
+  height: 33.3%;
+  width: 100%;
+  border-radius: 16px 16px 0 0;
 }
 
-.batmancard .images .avatarcontainer img {
-  position: relative;
-  width: 100px;
-  height: 100px;
+.batmancard .images .avatar {
+  width: 40%;
+  height: 23%;
+  position: absolute;
   border-radius: 50%;
   border: 2px solid #fff;
-  left: 33%;
+  left: 29%;
+  top: 21.5%;
 }
 
-.arlequinacard {
-  position: relative;
-  height: 100%;
-  background-color: red;
-  width: 20vw;
+.harleycard .images .avatar {
+  width: 40%;
+  height: 23%;
+  position: absolute;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  left: 29%;
+  top: 21.5%;
+}
+
+.batmancard .images .heart {
+  color: #cc2424;
+  width: 10%;
+  position: absolute;
+  top: 3%;
+  left: 4%;
+}
+
+.harleycard .images .heart {
+  color: #cc2424;
+  width: 10%;
+  position: absolute;
+  top: 3%;
+  left: 4%;
 }
 
 .batmancard .seemorebtn {
+  position: relative;
   text-align: center;
-  align-items: center;
+  width: 100%;
+  height: 10%;
+  top: 5%;
+  overflow: hidden;
+}
+
+.harleycard .seemorebtn {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  height: 10%;
+  top: 5%;
+  overflow: hidden;
+}
+
+.batmancard .seemorebtn a {
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  font-size: 0.9rem;
+  color: white;
+  background-color: #00669f;
+  font-family: 'Roboto', sans-serif;
+  padding: 1rem 2.25rem 1rem 2.25rem;
+  top: 20%;
+  overflow: hidden;
+}
+
+.harleycard .seemorebtn a {
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  font-size: 0.9rem;
+  color: white;
+  background-color: #00669f;
+  font-family: 'Roboto', sans-serif;
+  padding: 1rem 2.25rem 1rem 2.25rem;
+  top: 20%;
+  overflow: hidden;
 }
 
 .batmancard .batmantext {
-  font-family: 'Roboto', sans-serif;
-  font-size: 14px;
+  width: 100%;
+  height: 51.67%;
+  position: relative;
+  overflow: hidden;
 }
 
-p .nome {
-  font-family: 'Roboto', sans-serif;
-  font-size: 30px;
+.harleycard .harleytext {
+  width: 100%;
+  height: 51.67%;
+  position: relative;
+  overflow: hidden;
 }
 
-.batmantext {
+.batmancard .batmantext .nome {
+  width: 100%;
+  position: absolute;
+  top: 30%;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
   text-align: center;
+  font-size: 1.5rem;
+}
+
+.harleycard .harleytext .nome {
+  width: 100%;
+  position: absolute;
+  top: 30%;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.batmancard .batmantext .descricao {
+  width: 100%;
+  position: absolute;
+  top: 45%;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-size: 1rem;
+  padding: 0rem 2rem 0rem 2rem;
+}
+
+.harleycard .harleytext .descricao {
+  width: 100%;
+  position: absolute;
+  top: 45%;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-size: 1rem;
+  padding: 0rem 2rem 0rem 2rem;
 }
