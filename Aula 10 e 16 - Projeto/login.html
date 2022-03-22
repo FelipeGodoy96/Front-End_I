@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <title>Heroes Card Shop - Login</title>
+  </head>
+  <body>
+    <header>
+      <div class="discountbar">
+        <h5>20% OFF em toda a loja!</h5>
+        <div>
+          <nav>
+            <div><a href="./index.html">Início</a></div>
+            <div><a href="./registro.html">Cadastro</a></div>
+          </nav>
+        </div>
+      </div>
+      <h1 class="title">Super Heróis Online Card Shop</h1>
+    </header>
+    <main>
+     <div class="form-box">
+       <div class="login">
+       <p>Login</p>
+      </div>
+       <div class="form">
+         <form action="/login" method="POST">
+           
+          <input type="text" name="usuario" id="usuario" placeholder="Usuario"><br>
+          <input type="password" name="senha" id="senha" placeholder="Senha"><br>
+          <button type="submit" name="enviar" id="enviar">Entrar</button>
+          
+         </form>
+         <div class="noaccount">
+         <p>Não possui uma conta? <a href="./registro.html">Registre-se</a></p>
+         </div>
+       </div>
+     </div>
+     <footer><div class="footer"><p>Todos os direitos reservados Front-End I</p></div></footer>
+  </body>
+</html>
